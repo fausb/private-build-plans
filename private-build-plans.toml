@@ -45,3 +45,8 @@ serifs = "sans"
 
   [buildPlans.iosevkafaus.ligations]
   inherits = "javascript"
+  
+  [buildPlans.iosevkafaus.widths.normal]
+  shape = 576
+  menu = 5
+  css = "normal"
