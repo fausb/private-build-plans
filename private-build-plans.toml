@@ -1,12 +1,12 @@
-[buildPlans.iosevka-faus]
-family = "IosevkaFaus"
+[buildPlans.iosevkafaus]
+family = "iosevkafaus"
 spacing = "term"
 serifs = "sans"
 
-  [buildPlans.iosevka-faus.variants]
+  [buildPlans.iosevkafaus.variants]
   inherits = "ss05"
 
-    [buildPlans.iosevka-faus.variants.design]
+    [buildPlans.iosevkafaus.variants.design]
     capital-a = "straight"
     capital-b = "standard"
     capital-d = "more-rounded"
@@ -43,5 +43,5 @@ serifs = "sans"
     dollar = "open"
     lig-ltgteq = "flat"
 
-  [buildPlans.iosevka-faus.ligations]
+  [buildPlans.iosevkafaus.ligations]
   inherits = "javascript"
