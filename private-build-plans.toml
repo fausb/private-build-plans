@@ -1,1 +1,47 @@
-/home/fb/.gits/Iosevka-master/private-build-plans.toml
+[buildPlans.iosevka-faus]
+family = "IosevkaFaus"
+spacing = "term"
+serifs = "sans"
+
+  [buildPlans.iosevka-faus.variants]
+  inherits = "ss05"
+
+    [buildPlans.iosevka-faus.variants.design]
+    capital-a = "straight"
+    capital-b = "standard"
+    capital-d = "more-rounded"
+    capital-g = "toothed-hooked"
+    capital-h = "standard"
+    capital-j = "serifed"
+    capital-k = "symmetric-disconnected"
+    capital-m = "flat-bottom"
+    capital-q = "crossing"
+    capital-w = "straight-flat-top"
+    a = "double-storey-tailed"
+    e = "flat-crossbar"
+    f = "flat-hook"
+    g = "double-storey"
+    i = "serifed"
+    t = "flat-hook"
+    w = "straight-flat-top"
+    x = "straight"
+    lambda = "curly"
+    zero = "dotted"
+    two = "curly-neck"
+    six = "straight-bar"
+    eight = "two-circles"
+    nine = "closed-contour"
+    tilde = "high"
+    asterisk = "low"
+    paragraph-sign = "high"
+    caret = "low"
+    paren = "large-contour"
+    brace = "curly"
+    number-sign = "upright"
+    ampersand = "closed"
+    at = "fourfold"
+    dollar = "open"
+    lig-ltgteq = "flat"
+
+  [buildPlans.iosevka-faus.ligations]
+  inherits = "javascript"
